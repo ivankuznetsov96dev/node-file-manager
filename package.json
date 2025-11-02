@@ -1,0 +1,18 @@
+{
+  "name": "node-file-manager",
+  "version": "1.0.0",
+  "description": "A simple command-line file manager built with Node.js",
+  "type": "module",
+  "engines": {
+    "node": ">=24.10.0",
+    "npm": ">=10.9.2"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["file-manager", "cli"],
+  "author": "ivan-kuzniatsou",
+  "license": "MIT"
+}
