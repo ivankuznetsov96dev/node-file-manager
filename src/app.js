@@ -7,6 +7,7 @@ import * as navigationCommands from './commands/navigation.js';
 import * as compressCommands from './commands/compress.js';
 import * as hashCommands from './commands/hash.js';
 import * as basicCommands from './commands/basic.js';
+import * as osCommands from './commands/system.js';
 
 export class Application {
   constructor() {
@@ -107,6 +108,8 @@ export class Application {
       [COMMANDS.CP]: basicCommands.cp,
       [COMMANDS.MV]: basicCommands.mv,
       [COMMANDS.RM]: basicCommands.rmFile,
+
+      [COMMANDS.OS]: osCommands.osInfo,
 
       [COMMANDS.HASH]: hashCommands.hash,
 
